@@ -1,14 +1,14 @@
 ---
-  ek:
+  el:
     hosts:
       elasticsearch:
         ansible_connection: ssh
-        ansible_host: 10.0.0.2 
+        ansible_host: 10.0.1.2 
         ansible_user: vagrant
   
-  ls:
+  kb:
     hosts:
-      logstash:
+      kibana:
         ansible_connection: ssh
-        ansible_host: 10.0.0.3 
+        ansible_host: 10.0.1.3 
         ansible_user: vagrant
